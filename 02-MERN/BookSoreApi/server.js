@@ -14,7 +14,7 @@ connectToDB();
 app.use(express.json());
 
 //Routes here
-app.use('/api/books',bookRoutes)
+app.use("/api/books", bookRoutes);
 
 app.listen(PORT, () => {
   console.log("App is now running");
